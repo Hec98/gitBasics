@@ -100,3 +100,51 @@ git mv destruir-mundo.txt salvar-mundo.txt
 ``
 git rm salvar-mundo.txt
 ``
+# Despues de renombrar o eliminar archivos fuera de git
+``
+git add -u
+git add -A
+``
+# Ramas
+``
+git branch rama-villanos
+``
+# Ver ramas y cambiar de rama
+``
+git branch
+git checkout rama-villanos
+``
+# Ver diferencias de ramas
+``
+git diff rama-villanos master 
+``
+# Añadir a la rama master otra rama
+``
+git merge rama-villanos
+``
+# borrar rama
+``
+git branch -d rama-villanos
+``
+# Crear rama y ir a la rama
+``
+git checkout -b rama-villano
+``
+# crear y ver tags 
+``
+git tag superRelease
+git tag
+``
+# borrar tags
+``
+git tag -d superRelease
+``
+# crear tag anotado y espesificar elcamit por el hash
+``
+git tag -a v1.0.0 -m "Versión 1.0.0"
+git tag -a v0.1.0 345d7de -m "Versión alfa"
+``
+# ver informacion de un tag
+``
+git show v1.0.0
+``
