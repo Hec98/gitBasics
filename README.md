@@ -7,7 +7,7 @@ git init
 git add .
 git add -A
 ``
-# Agrega todes los txt del repositorio
+# Agrega todos los txt del repositorio
 ``
 gir add "*.txt"
 ``
