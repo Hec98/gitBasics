@@ -148,3 +148,32 @@ git tag -a v0.1.0 345d7de -m "Versión alfa"
 ``
 git show v1.0.0
 ``
+# git stash
+``
+git stash
+git stash list
+``
+# extae el ultimo elemento del stash y lo borra
+``
+git stash pop
+``
+# Remueve ultimo stash
+``
+git stash drop
+``
+# git reverse
+``
+git rebase master
+``
+# Git push
+``
+git push
+``
+#git git fetch
+``
+git fetch
+``
+# Git pull
+``
+git pull
+``
