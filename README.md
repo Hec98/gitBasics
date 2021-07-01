@@ -126,6 +126,10 @@ git merge rama-villanos
 ``
 git branch -d rama-villanos
 ``
+# forzar borrar rama
+``
+git branch -D rama
+``
 # Crear rama y ir a la rama
 ``
 git checkout -b rama-villano
