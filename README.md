@@ -177,3 +177,19 @@ git fetch
 ``
 git pull
 ``
+# Ver a donde apunta el repositorio
+``
+git remote -v
+``
+# Agregar upstream
+``
+git remote add upstream https://github.com/Klerith/legion-del-mal.git
+``
+# Verificar cambios en el upstream
+``
+git fetch upstream master
+``
+# Obtener cambios del upstream
+``
+git pull upstream master
+``
