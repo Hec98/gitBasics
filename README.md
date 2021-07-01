@@ -130,6 +130,12 @@ git branch -d rama-villanos
 ``
 git branch -D rama
 ``
+# Efectuar cambios en el servidor
+``
+git push origin :rama-misiones
+git push origin :rama-villanos
+git remote prune origin
+``
 # Crear rama y ir a la rama
 ``
 git checkout -b rama-villano
