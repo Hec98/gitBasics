@@ -1,5 +1,6 @@
 ## Guía básica del uso de Git
 ### Contenido
+* [Links de interes](git00.md)
 * [Inicio en Git](git01.md)
 * [Commits](git02.md)
 * [Ramas](git03.md)
