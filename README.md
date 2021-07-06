@@ -155,6 +155,10 @@ git tag -d superRelease
 git tag -a v1.0.0 -m "Versión 1.0.0"
 git tag -a v0.1.0 345d7de -m "Versión alfa"
 ``
+### subir tags
+``
+git push --tags 
+``
 ### ver informacion de un tag
 ``
 git show v1.0.0
