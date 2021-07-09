@@ -45,3 +45,7 @@ git fetch upstream master
 ``
 git pull upstream master
 ``
+### Generar clave ssh
+```
+ssh-keygen -t rsa -C "email@host.com"
+```
